@@ -4,8 +4,6 @@ local module = {}
 
 module.Material = loadstring(game:HttpGetAsync(git .. "MaterialIcons.luau"))()
 module.Lucide = loadstring(game:HttpGetAsync(git .. "LucideIcons.luau"))()
-module.Phosphor = loadstring(game:HttpGetAsync(git .. "Phosphor.luau"))()
-module["Phosphor-Filled"] = loadstring(game:HttpGetAsync(git .. "Phosphor%20Filled.luau"))()
 module["SF"] = loadstring(game:HttpGetAsync( git .. "SFSymbols.luau"))()
 module["Symbols"] = loadstring(game:HttpGetAsync( git .. "Symbols.luau"))()
 module["Symbols-Filled"] = loadstring(game:HttpGetAsync( git .. "Symbols-Filled.luau"))()
